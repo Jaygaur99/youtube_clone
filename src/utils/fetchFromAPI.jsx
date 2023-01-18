@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const options = {
-  params: { maxResults: "50" },
+  params: { maxResults: "50", regionCode: "IN" },
   headers: {
     "X-RapidAPI-Key": import.meta.env.VITE_REACT_APP_RAPID_API_KEY,
     "X-RapidAPI-Host": import.meta.env.VITE_REACT_APP_RAPID_API_HOST,
